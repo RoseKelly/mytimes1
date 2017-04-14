@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  border-bottom: 0.1em solid black;
+}
+
+h4 {
+  color: MediumAquamarine;
+  padding: 0.5em;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin: 1em;
+  color: black;
+}
+
+
+.header-col-1 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  padding: 0.5em;
+/*  border: 0.5em solid red;*/
+
+}
+
+.header-col-2 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+/*  border: 0.5em solid orange;*/
+}
